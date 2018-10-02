@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="output" path="bin/default"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/2.1.0.RELEASE/f0422fae8d5f75c416f6536eb877feb0b075801a/spring-data-mongodb-2.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-mongodb/2.1.0.RELEASE/fb50d2ba52f0157dcff16b8920df88de9d51308f/spring-data-mongodb-2.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.0.RELEASE/3d050fca4878c23143c105514182d68966800460/spring-tx-5.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/5.1.0.RELEASE/5614e591cd68b209192bdfd1a117da4f6f7d2b7d/spring-tx-5.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.0.RELEASE/8d7d708e2f65d7c3594e42412b9e054980a1ce15/spring-context-5.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.0.RELEASE/20a41450e54b544687d1fec565ba2bd7335b050a/spring-context-5.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.0.RELEASE/519e7aeedbf00245b512d6bdb6a37c31bc1c8c8/spring-data-commons-2.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/2.1.0.RELEASE/9c4049c4ac36ef98316a5401c1e47c1367bdbedd/spring-data-commons-2.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.0.RELEASE/41aff2028ea8bc309745a87f284904965e67c45b/spring-aop-5.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/5.1.0.RELEASE/2e94c3aa0b9d2c0626d8328ff61e166decb33046/spring-aop-5.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.0.RELEASE/13c087d7e527bf0f998b3d8505b3a3238c037b26/spring-beans-5.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/5.1.0.RELEASE/8de4fe847e95a87e25acfb7fe5f21c0eddbe94c7/spring-beans-5.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.0.RELEASE/b7b4fced4cd461e1764067b215f91ceaff5b36bd/spring-expression-5.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/5.1.0.RELEASE/62468cb6d40da37ee6b9c119e39fda5dfb86042/spring-expression-5.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.0.RELEASE/ef8aa4929595a28fb85647574aebd5e8d917340f/spring-core-5.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.0.RELEASE/7835804188894b86a39b5a6028d50381638170c6/spring-core-5.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.8.2/bd093ee2210e73f63719ca25ec14e0bdc0d2048f/mongo-java-driver-3.8.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.mongodb/mongo-java-driver/3.8.2/29fb01c26674c1a0f763e25623b2a1e4f4afd7b/mongo-java-driver-3.8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.0.RELEASE/d0af1173fca9a0d1a48dc0d87e34d26cf0dfa06a/spring-jcl-5.1.0.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.0.RELEASE/20ee05d41b5bebcab471226517f83447ad3d163c/spring-jcl-5.1.0.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 </classpath>

@@ -1,1 +1,20 @@
 apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+// tag::dependencies[]
+dependencies {
+    compile 'org.springframework.data:spring-data-mongodb:2.1.0.RELEASE'
+}
+// end::dependencies[]
+
+// tag::repositories[]
+repositories {
+    maven {
+        url 'https://repo.spring.io/libs-release'
+    }
+}
+// end::repositories[]
