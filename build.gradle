@@ -5,16 +5,41 @@ apply plugin: 'application'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-// tag::dependencies[]
-dependencies {
-    compile 'org.springframework.data:spring-data-mongodb:2.1.0.RELEASE'
-}
-// end::dependencies[]
+mainClassName = 'tests/java/DronesTests'
 
 // tag::repositories[]
 repositories {
-    maven {
-        url 'https://repo.spring.io/libs-release'
-    }
+    //maven {
+        //url 'https://repo.spring.io/libs-release'
+    //}
+    mavenCentral()
 }
 // end::repositories[]
+
+// tag::jar[]
+jar {
+    baseName = 'gs-gradle'
+    version =  '0.1.7'
+}
+// end::jar[]
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+// tag::dependencies[]
+dependencies {
+    //compile 'org.springframework.data:spring-data-mongodb:2.1.0.RELEASE'
+
+    implementation 'com.github.esdrasdemorais:Ddd:master-SNAPSHOT'
+
+    //testCompile("junit:junit")
+
+    compile "joda-time:joda-time:2.2"
+    testCompile "junit:junit:4.12"
+}
+// end::dependencies[]
+
