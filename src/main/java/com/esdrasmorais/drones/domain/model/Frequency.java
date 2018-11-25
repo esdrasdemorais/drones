@@ -1,6 +1,6 @@
 package com.esdrasmorais.drones.domain.model;
 
-public enum ScheduleFrequency {
+public enum Frequency {
 	DAILY,
 	WEEKLY,
 	FORTNIGHTLY,

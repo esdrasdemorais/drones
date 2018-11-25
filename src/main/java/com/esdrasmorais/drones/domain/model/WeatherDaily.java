@@ -18,7 +18,7 @@ public class WeatherDaily extends Weather {
 	
 	protected Double directionInDegree;
 	
-	public WeatherDaily(ScheduleFrequency scheduleFrequency) 
+	public WeatherDaily() 
 		throws MalformedURLException, IOException
 	{
 		URL url = new URL(this.endPoint + this.coordinates + this.appKey);

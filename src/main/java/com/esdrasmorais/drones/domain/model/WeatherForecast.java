@@ -25,7 +25,7 @@ public class WeatherForecast extends Weather {
 	
 	protected Double directionInDegree;
 	
-	public WeatherForecast(ScheduleFrequency scheduleFrequency) 
+	public WeatherForecast(Frequency scheduleFrequency) 
 		throws MalformedURLException, IOException
 	{
 		URL url = new URL(this.endPoint + this.coordinates + this.appKey);
@@ -58,7 +58,7 @@ public class WeatherForecast extends Weather {
 	}
 	
 	private void setWeatherForecast(JsonObject json, 
-		ScheduleFrequency scheduleFrequency)
+		Frequency scheduleFrequency)
 	{
 		switch(scheduleFrequency) {
 			case DAILY:
