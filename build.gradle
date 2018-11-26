@@ -1,7 +1,25 @@
+buildscript {
+	ext {
+		springBootVersion = '2.1.1.BUILD-SNAPSHOT'
+	}
+	repositories {
+		mavenCentral()
+		maven { url "https://repo.spring.io/snapshot" }
+		maven { url "https://repo.spring.io/milestone" }
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
 apply plugin: 'application'
 
+group = 'com.esdrasmorais'
+version = '0.1.7-SNAPSHOT'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
@@ -9,12 +27,15 @@ mainClassName = 'tests/java/DronesTests'
 
 // tag::repositories[]
 repositories {
-    //maven {
-        //url 'https://repo.spring.io/libs-release'
-    //}
     mavenCentral()
+    maven { url 'https://repo.spring.io/snapshot' }
+    maven { url 'https://repo.spring.io/milestone' }
 }
 // end::repositories[]
+
+ext {
+    springCloudVersion = 'Greenwich.BUILD-SNAPSHOT'
+}
 
 // tag::jar[]
 jar {
@@ -32,14 +53,28 @@ allprojects {
 
 // tag::dependencies[]
 dependencies {
-    //compile 'org.springframework.data:spring-data-mongodb:2.1.0.RELEASE'
-
     implementation 'com.github.esdrasdemorais:Ddd:master-SNAPSHOT'
 
     //testCompile("junit:junit")
 
     compile "joda-time:joda-time:2.2"
     testCompile "junit:junit:4.12"
+
+    // https://mvnrepository.com/artifact/org.picocontainer/picocontainer
+    compile group: 'org.picocontainer', name: 'picocontainer', version: '2.15'
+
+    implementation('org.springframework.boot:spring-boot-starter-web')    
+
+    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
+
+    runtimeOnly('org.springframework.boot:spring-boot-devtools')
+
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 // end::dependencies[]
 
+dependencyManagement {
+    imports {
+	mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
