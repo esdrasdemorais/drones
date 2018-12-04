@@ -20,12 +20,22 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server/2.1.0.BUILD-SNAPSHOT/ba9705b793174d311d83c28d58ad64273f2af9cf/spring-cloud-starter-netflix-eureka-server-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server/2.1.0.BUILD-SNAPSHOT/283ca625e9f4d2ff51d4bccf9339cd271e54fb95/spring-cloud-starter-netflix-eureka-server-2.1.0.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-zuul/2.0.2.RELEASE/d74c2c2931b0af04bc6b8c97fab41f44c0998d35/spring-cloud-starter-netflix-zuul-2.0.2.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-zuul/2.0.2.RELEASE/2504419895b87f57ab6655b99a7aaf1283d68f0/spring-cloud-starter-netflix-zuul-2.0.2.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-server/2.1.0.BUILD-SNAPSHOT/231abbd3ae5ce6cbecaffc579c172dbdc086fa50/spring-cloud-netflix-eureka-server-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-server/2.1.0.BUILD-SNAPSHOT/e3e8eb677d50cfd662095b38c4eb8d39c74de79f/spring-cloud-netflix-eureka-server-2.1.0.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client/2.1.0.M3/b47a89d102b1cec0355bd267a76c4f6f56c98500/spring-cloud-starter-netflix-eureka-client-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client/2.1.0.M3/d5e3ece99556b77118ac3dda9e952b83d484a49/spring-cloud-starter-netflix-eureka-client-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server/2.1.0.M3/11a64f54f3eec6baa02615bb070bee2440248e34/spring-cloud-starter-netflix-eureka-server-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-eureka-server/2.1.0.M3/f66bcb03a5ff7d4c48c9e44f3fea84b16d8ab879/spring-cloud-starter-netflix-eureka-server-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-server/2.1.0.M3/6319437e1e37cb81a4233900cd59ee7aec33d782/spring-cloud-netflix-eureka-server-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-server/2.1.0.M3/6e1192cf6da00d9a38e7b0b1ff29722fbe166cd6/spring-cloud-netflix-eureka-server-2.1.0.M3.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -90,12 +100,47 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/5f994d792b2a215190c7aec7dd8d50ba6998735c/Ddd-master-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/5f04fd331cf1295e35b43e26d4e2c8bd4ab48500/Ddd-master-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/4784ff181533fb7b962164df6c7b3301ecb44f0d/Ddd-master-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/fd8e6f0cd0eba97d7d465f679ee01c4b73597898/Ddd-master-SNAPSHOT.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.1.1.BUILD-SNAPSHOT/842d26e1623d13dfcb4f45ce37978badd75e209c/spring-boot-starter-web-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/2.1.1.RELEASE/fccdac7bbd88561a33868101813d9210bd7a13b9/spring-boot-starter-web-2.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.1.0.M3/99c6edeeaead28252a1e1efbb4de394f5ccf26d7/spring-cloud-netflix-zuul-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-zuul/2.1.0.M3/c2a60580113672023995c4bcb71a5e73abf906f1/spring-cloud-netflix-zuul-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-hystrix/2.1.0.M3/900b67f2018492c9d57f191a0edcb08be9d40b81/spring-cloud-starter-netflix-hystrix-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-hystrix/2.1.0.M3/fd5582af909ad3a1d6f391e4c10ee1c6868db3bf/spring-cloud-starter-netflix-hystrix-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-ribbon/2.1.0.M3/81ca6c624f8276bbb4605e5591c3b6d5ffe1109a/spring-cloud-starter-netflix-ribbon-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-ribbon/2.1.0.M3/eb46f0723806d971205330a4c096476a051fb3c3/spring-cloud-starter-netflix-ribbon-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-archaius/2.1.0.M3/ed77202bee5f1ba359898f8f285cf6963d086b74/spring-cloud-starter-netflix-archaius-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-archaius/2.1.0.M3/259e43ff5dc75946432664e48772ecb7df66da3/spring-cloud-starter-netflix-archaius-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.1.0.M2/990263cd1fa272fe5c4b1f7fbdbbdb71821bf8f/spring-cloud-starter-2.1.0.M2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.1.0.M2/b97625d7c1ca62f07452fb9404d10505eb3e3067/spring-cloud-starter-2.1.0.M2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.1.1.RELEASE/65b5ee49303dc91c140760fa2baa06be5199387/spring-boot-starter-actuator-2.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.1/87ccf7a5d7a2c2884732347efb5b4ba91547b76d/zuul-core-1.3.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.zuul/zuul-core/1.3.1/ac3c4bc250ccdc95d32ae2747b39c7e6dcca9fed/zuul-core-1.3.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -110,12 +155,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-ribbon/2.1.0.BUILD-SNAPSHOT/2969a3f3dcb0a91d40137074e38c9ac9835611c4/spring-cloud-starter-netflix-ribbon-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-ribbon/2.1.0.BUILD-SNAPSHOT/28b50e39b5d936121b3aeb4ff784c454fc8caed7/spring-cloud-starter-netflix-ribbon-2.1.0.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-archaius/2.1.0.BUILD-SNAPSHOT/926bbfee6561efc4c8d69c4693e486e7ae3141f1/spring-cloud-starter-netflix-archaius-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-netflix-archaius/2.1.0.BUILD-SNAPSHOT/b2eb98982c98ad4ec4e935bb6fd7d022cbe4c9d5/spring-cloud-starter-netflix-archaius-2.1.0.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.5.12/9904c19688f585a3726a5fed41d523ee726788fa/hystrix-javanica-1.5.12-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-javanica/1.5.12/5e4d888e0dba811e8ac3a9dbc8cbcc511734ace4/hystrix-javanica-1.5.12.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -145,7 +185,17 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.18/a439c24a4afa2517e876002733183968a33a8dc8/hystrix-core-1.5.18-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.18/e1a7ed48e1a60abbb08027a46189afb04c05b04f/hystrix-core-1.5.18.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-metrics-event-stream/1.5.12/d546bb42a848ef6e55589c0845df8e6b0914c020/hystrix-metrics-event-stream-1.5.12-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-metrics-event-stream/1.5.12/3b3beae83ab5e8c10154c9e9581d7c210276e227/hystrix-metrics-event-stream-1.5.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-serialization/1.5.12/e6ce242cb0fc2bbc13a4ce6516a68ff590d0d8c2/hystrix-serialization-1.5.12-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-serialization/1.5.12/ef4a2758e5bc6cf42ae848d4ba3d5363e0a2b27/hystrix-serialization-1.5.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.12/b3ad4bd44c8f77df4615ea7750aa42d22ec755ed/hystrix-core-1.5.12-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.12/75379b6671fcaa9cec33035df684a68ec7741ca6/hystrix-core-1.5.12.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -180,47 +230,37 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.1.1.BUILD-SNAPSHOT/9d33fa081abe8b4b1662f261d75bf9bdb4955e99/spring-boot-starter-json-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-json/2.1.1.RELEASE/5fc133c1c1858020dd8df5192eaeea747c8b6e60/spring-boot-starter-json-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.1.0.BUILD-SNAPSHOT/27d8049a086969eac50dc08a02cebadc8e4c5ad3/spring-cloud-starter-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/2.1.0.BUILD-SNAPSHOT/4ab0daf2fc2cbfbf9927bc8d51a4320c33d85592/spring-cloud-starter-2.1.0.BUILD-SNAPSHOT.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-freemarker/2.1.1.RELEASE/c0ccaa96e33bd11c6bcd948abd34d8721a9de6a3/spring-boot-starter-freemarker-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-actuator/2.1.1.BUILD-SNAPSHOT/6a95a3ba7fc565262bbef510f13ecd798136e5db/spring-boot-starter-actuator-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/2.1.0.M3/cf2b7052511fd86848273180c2468d9744317392/spring-cloud-netflix-eureka-client-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/2.1.0.M3/1a79f2c1678ae02ec084291dd6c8c0a92007ffe/spring-cloud-netflix-eureka-client-2.1.0.M3.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-freemarker/2.1.1.BUILD-SNAPSHOT/a52078768bddfed4091c1af1adbe801fd66d9bf9/spring-boot-starter-freemarker-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-hystrix/2.1.0.M3/a235f55a2e86a580cebec97ce8420ab6da7f89b6/spring-cloud-netflix-hystrix-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-hystrix/2.1.0.M3/847bf79c5e6b1e2486ac36fdab7c152205966f68/spring-cloud-netflix-hystrix-2.1.0.M3.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/2.1.0.BUILD-SNAPSHOT/419556a39875286c46197f7a0f0dd327da946ff0/spring-cloud-netflix-eureka-client-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/2.1.0.BUILD-SNAPSHOT/63ac267a7c8eea1e36d1745cce289d0108ce9095/spring-cloud-netflix-eureka-client-2.1.0.BUILD-SNAPSHOT.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.1.1.RELEASE/2a21823a30c590f384041353b0dec09a824446c6/spring-boot-starter-aop-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-hystrix/2.1.0.BUILD-SNAPSHOT/15809c523a09d5fc60e806deafccd83319850086/spring-cloud-netflix-hystrix-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-hystrix/2.1.0.BUILD-SNAPSHOT/b50a10c86fcf5a94cc87974a93a02c2ea3ee425e/spring-cloud-netflix-hystrix-2.1.0.BUILD-SNAPSHOT.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.1.1.RELEASE/71df6742de72887214813ff03ae0b6ec4bbcf899/spring-boot-starter-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/2.1.1.BUILD-SNAPSHOT/649d13c867ed640ba6f92105ca1cd35a631de4eb/spring-boot-starter-aop-2.1.1.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/2.1.1.BUILD-SNAPSHOT/481415569cfe6732d24fdb15e66183863f0f8ae0/spring-boot-starter-2.1.1.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.1.1.BUILD-SNAPSHOT/7f598ce57db3541d2eff9ef4ffabf96f4a58ac14/spring-boot-starter-tomcat-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/2.1.1.RELEASE/4cbaa992fa5509edc74d9543ab5f8f14e20fb197/spring-boot-starter-tomcat-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -236,6 +276,121 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.3.RELEASE/7f3018f1227075cf6e5772659e042f7cdbe59cb6/spring-web-5.1.3.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.3.RELEASE/c875df33e6c5ac0df53e727a08d42b316e69918b/spring-web-5.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.10/24b0de5fa33b368f5fe8f9eb5242343bb39d3abb/xstream-1.4.10-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.10/dfecae23647abc9d9fd0416629a4213a3882b101/xstream-1.4.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19.1/5f771b12dbc77579012668adcd8645518df363ab/jersey-apache-client4-1.19.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19.1/e1c45701a003097ace96bed4bc8fb937e9867498/jersey-apache-client4-1.19.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.6/bda84e42670536453ecd61ee70349c2493445994/httpclient-4.5.6-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.6/1afe5621985efe90a92d0fbc9be86271efbe796f/httpclient-4.5.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.3.0/ad4134aae7384a8aad221ef748f87dda1cbf0b34/netflix-commons-util-0.3.0-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.3.0/8a6ffc41308c300197918eff3df1a7447ddaf468/netflix-commons-util-0.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.1.0.M2/c8f15a4216ef2b28b3005d092b61548488e7c73d/spring-cloud-context-2.1.0.M2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.1.0.M2/a4b1a5c4c8541da70efd6316b376fbb96304fcff/spring-cloud-context-2.1.0.M2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.1.0.M2/a451a5880a9660ea4dc289b4dc0ffe944a3ca8fe/spring-cloud-commons-2.1.0.M2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.1.0.M2/76c1d7d3a10e6746b0ff38e0b45775c7660fb207/spring-cloud-commons-2.1.0.M2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/d57e5d3237fb53cca75dc5316ca0ce9cb5e4e126/spring-security-rsa-1.0.7.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/8fb787a76b2a31b7efbb71ae9be68b269a358302/spring-security-rsa-1.0.7.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.1.1.RELEASE/90056819c2fac58de1bf37b3acc78c018c2b251f/spring-boot-actuator-autoconfigure-2.1.1.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.1.1.RELEASE/b1dee8c53471db2b6af1a55c1d8db32b3811ea0d/spring-boot-actuator-autoconfigure-2.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.1.1/b856e37bb3cfd0143e29c57d44dc27a4944efe4e/micrometer-core-1.1.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.1.1/5f8063266f548b710ce06a090586a625f3d682b9/micrometer-core-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-ribbon/2.1.0.M3/67fd943d388ddbe0965b8a662262699e70360ad5/spring-cloud-netflix-ribbon-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-ribbon/2.1.0.M3/776057b9d4869ebe705a3176fa9339a54a0c3846/spring-cloud-netflix-ribbon-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-reactive-streams/1.2.1/a20821f06d17f86ffe8361d3560d695b71f269cc/rxjava-reactive-streams-1.2.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava-reactive-streams/1.2.1/dac56d021c092c34662943dae3ab1432542005/rxjava-reactive-streams-1.2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/3085ad53421b7c6e3bf1ab78a1c6599a6fc92c6b/rxnetty-contexts-0.4.9-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/6efe17a25602a5424c18ab975aa9c28b6d6b7f56/rxnetty-contexts-0.4.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/e994f91f231c9301e23cb1eaee8c3aaa2abf61d8/rxnetty-0.4.9-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/5aff3c9d6bb9d9066c378bb3d2a4413ed1773bcf/rxnetty-0.4.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.0/ce55d19a7aae6567b44e05f90ec0d065a41524/rxjava-1.2.0-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.0/42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8/rxjava-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-archaius/2.1.0.M3/6f11a8664bc9e2d81150e4755daeaa52c37e9e8a/spring-cloud-netflix-archaius-2.1.0.M3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-archaius/2.1.0.M3/264012ec55521421cb7149f9017142323d61f278/spring-cloud-netflix-archaius-2.1.0.M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/e4dbd8ad69e07fa7f28688f92d773a429143060b/commons-configuration-1.8-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891/commons-io-2.4-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/7ecc2c3a08052a6953d5e69f6f24ed730d9d0969/netflix-statistics-0.1.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/12f6e48253f9cafa0e24d7d232ff504c52143212/netflix-statistics-0.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.1.1.RELEASE/f0cba1cfbc46eb02a3af3555e1136ef3890a1bbf/spring-boot-starter-logging-2.1.1.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.11.1/58a7a2fb367e378a856e6f60b171795ba3135eab/log4j-to-slf4j-2.11.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.11.1/1097acadf76aa4dd721ec5807566003ae9d975de/log4j-to-slf4j-2.11.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/bcea1530927f59b5128841d3571f879ce3af2e86/jul-to-slf4j-1.7.25-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -270,27 +425,17 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.1.1.BUILD-SNAPSHOT/850a73b1d032995624f7f4fa5f067dd987cade7d/spring-boot-actuator-autoconfigure-2.1.1.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.1.1.BUILD-SNAPSHOT/8e7566de8eb6c67219e2f129eafa48d55a1bdb85/spring-boot-actuator-autoconfigure-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.1.RELEASE/84849f2b14ea0adfeb326031ede938c468b053c8/spring-boot-autoconfigure-2.1.1.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.1.RELEASE/b8238b78cefe6d964f996599556af9ac8669a83d/spring-boot-autoconfigure-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.1.BUILD-SNAPSHOT/70419595700f38a4e897d81c706448f1f48a99db/spring-boot-autoconfigure-2.1.1.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.1.BUILD-SNAPSHOT/e280d56965eb4b46e25c34306277943a70dfb0d4/spring-boot-autoconfigure-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.1.1.RELEASE/7924e302640cfa91fbd5bf1f2f8dbd0373d1f0e7/spring-boot-actuator-2.1.1.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.1.1.RELEASE/10fc3b2d5b65bb490c0bf96aa2c016c343cd89ac/spring-boot-actuator-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.1.1.BUILD-SNAPSHOT/9d55b25d780ed44fbeaaa78922d5651bb8307d4c/spring-boot-actuator-2.1.1.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator/2.1.1.BUILD-SNAPSHOT/36f088d8fc09474f3e0477bcaf9cdbb83669e5b7/spring-boot-actuator-2.1.1.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.1.BUILD-SNAPSHOT/94fbb9e63ead0dbcb1b3748949d62906a56e95bf/spring-boot-2.1.1.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.1.BUILD-SNAPSHOT/13a9fda6837b8f7c8d0a7f2dfd20ff27957549b1/spring-boot-2.1.1.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/2.1.1.BUILD-SNAPSHOT/d6604233269943005d3880d0efc69e611400be39/spring-boot-starter-logging-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.1.RELEASE/4d116d9e1b8b76db41150adefc527a8b862c8132/spring-boot-2.1.1.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.1.RELEASE/35a3dd576bc3ad5832d0a7d7242b3b140095727b/spring-boot-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -355,6 +500,11 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-afterburner/2.9.7/d8fd6b6b583d57b74362d3aed83e179a1974ca3b/jackson-module-afterburner-2.9.7-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-afterburner/2.9.7/8f864e3a2bb4da738d8cdc56f3825298bee8b943/jackson-module-afterburner-2.9.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.9.7/fae91054313c52c91303b779bf02a62ed134ae9c/jackson-module-jaxb-annotations-2.9.7-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.9.7/2774b8e960697678ca87cf54abd59c736fcd1e83/jackson-module-jaxb-annotations-2.9.7.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -400,21 +550,6 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.1.0.BUILD-SNAPSHOT/e1a77f89b00edf1b20ff535d456d2f1d634b220e/spring-cloud-context-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/2.1.0.BUILD-SNAPSHOT/bee168963f90a22a6a90c5cdc4a14e25bc0f6195/spring-cloud-context-2.1.0.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.1.0.BUILD-SNAPSHOT/1c542b501a2bdad39db404737527d607115a9b2c/spring-cloud-commons-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.1.0.BUILD-SNAPSHOT/e381223b272d41f4290a6a396e96bc1a061282c3/spring-cloud-commons-2.1.0.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/d57e5d3237fb53cca75dc5316ca0ce9cb5e4e126/spring-security-rsa-1.0.7.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.7.RELEASE/8fb787a76b2a31b7efbb71ae9be68b269a358302/spring-security-rsa-1.0.7.RELEASE.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-servlet/1.19.1/8af022f0bb7eebd93e332a0875b29875a76a3abe/jersey-servlet-1.19.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-servlet/1.19.1/d4e259cf85242c9905b6e5894f2cac803232f565/jersey-servlet-1.19.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -425,122 +560,12 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.3.0/ad4134aae7384a8aad221ef748f87dda1cbf0b34/netflix-commons-util-0.3.0-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-commons-util/0.3.0/8a6ffc41308c300197918eff3df1a7447ddaf468/netflix-commons-util-0.3.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.10/24b0de5fa33b368f5fe8f9eb5242343bb39d3abb/xstream-1.4.10-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.10/dfecae23647abc9d9fd0416629a4213a3882b101/xstream-1.4.10.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-ribbon/2.1.0.BUILD-SNAPSHOT/855c2f2117a2960721a0301078fe28417717c5d/spring-cloud-netflix-ribbon-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-ribbon/2.1.0.BUILD-SNAPSHOT/493e8717bc8cc6a3640edcb942484cd3513201e9/spring-cloud-netflix-ribbon-2.1.0.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-archaius/2.1.0.BUILD-SNAPSHOT/cd523d81c985e1fce29f569ee938d66da11fdc91/spring-cloud-netflix-archaius-2.1.0.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-archaius/2.1.0.BUILD-SNAPSHOT/66ce344b813d7d721dbc67e98b821efc908379da/spring-cloud-netflix-archaius-2.1.0.BUILD-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/e4dbd8ad69e07fa7f28688f92d773a429143060b/commons-configuration-1.8-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/3085ad53421b7c6e3bf1ab78a1c6599a6fc92c6b/rxnetty-contexts-0.4.9-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty-contexts/0.4.9/6efe17a25602a5424c18ab975aa9c28b6d6b7f56/rxnetty-contexts-0.4.9.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/e994f91f231c9301e23cb1eaee8c3aaa2abf61d8/rxnetty-0.4.9-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/5aff3c9d6bb9d9066c378bb3d2a4413ed1773bcf/rxnetty-0.4.9.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.0/ce55d19a7aae6567b44e05f90ec0d065a41524/rxjava-1.2.0-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.0/42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8/rxjava-1.2.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/cfd5385e0c5ed1c8a5dce57d86e79cf357153a64/logback-classic-1.2.3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.11.1/58a7a2fb367e378a856e6f60b171795ba3135eab/log4j-to-slf4j-2.11.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.11.1/1097acadf76aa4dd721ec5807566003ae9d975de/log4j-to-slf4j-2.11.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/bcea1530927f59b5128841d3571f879ce3af2e86/jul-to-slf4j-1.7.25-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.25/af5364cd6679bfffb114f0dec8a157aaa283b76/jul-to-slf4j-1.7.25.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/7ecc2c3a08052a6953d5e69f6f24ed730d9d0969/netflix-statistics-0.1.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.netflix.netflix-commons/netflix-statistics/0.1.1/12f6e48253f9cafa0e24d7d232ff504c52143212/netflix-statistics-0.1.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.3.RELEASE/893d97e4a06c9300b9d9acd0321e38e217187e31/spring-jcl-5.1.3.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.3.RELEASE/d332735dbc9c3f48cac59fb832c5719eb62bbe4d/spring-jcl-5.1.3.RELEASE.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/a0ad4e203304ccab7e01266fa814115850edb8a9/jackson-annotations-2.9.0-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.9.7/56973bfc77fcee5cce20e63164aa5d70a7489f7/jackson-dataformat-cbor-2.9.7-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.9.7/3c4fd27ba1e87ccdd32fa336216f2cc1e04f5c20/jackson-dataformat-cbor-2.9.7.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/478a76e0ca46b25648abce6ad4858cde5e8488ec/jackson-core-2.9.7-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/4b7f0e0dc527fab032e9800ed231080fdc3ac015/jackson-core-2.9.7.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.1.2.RELEASE/bf80258c771ab62a58dffe995d9d64e923c846ad/spring-security-crypto-5.1.2.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.1.2.RELEASE/545e71f7cbf9a4bf33dc88028f6cffdc4d69f974/spring-security-crypto-5.1.2.RELEASE.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/a25f041293f401af08efba63ff4bbdce98134a03/bcpkix-jdk15on-1.60-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/d0c46320fbc07be3a24eb13a56cee4e3d38e0c75/bcpkix-jdk15on-1.60.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.1.1-SNAPSHOT/e5987571759724d442cf5cc5e61bb1bf773790ee/micrometer-core-1.1.1-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-core/1.1.1-SNAPSHOT/24a98b22786931f57ad7c67852877cbc0ccbe1b/micrometer-core-1.1.1-SNAPSHOT.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.28/b9e763fd0149515ec3b19cc7025385e7a177bdb0/freemarker-2.3.28-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.28/7200064467a935052f99d114c2c05c3d189bc6d6/freemarker-2.3.28.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.3.7/36526db083c7e1916195bf7a76ba0359e2b9ada6/jettison-1.3.7-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.3.7/7d36a59a0577f11b12088b9e215d6860345b9e1d/jettison-1.3.7.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19.1/5f771b12dbc77579012668adcd8645518df363ab/jersey-apache-client4-1.19.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-apache-client4/1.19.1/e1c45701a003097ace96bed4bc8fb937e9867498/jersey-apache-client4-1.19.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -560,27 +585,27 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.6/bda84e42670536453ecd61ee70349c2493445994/httpclient-4.5.6-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.6/1afe5621985efe90a92d0fbc9be86271efbe796f/httpclient-4.5.6.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.vlsi.compactmap/compactmap/1.2.1/8358933ec3d4930993b7012b73c158a0b5ae9b74/compactmap-1.2.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.vlsi.compactmap/compactmap/1.2.1/27aec1f3162c14b8a1178bb5c75ab43b618308ef/compactmap-1.2.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/a0ad4e203304ccab7e01266fa814115850edb8a9/jackson-annotations-2.9.0-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.9.7/56973bfc77fcee5cce20e63164aa5d70a7489f7/jackson-dataformat-cbor-2.9.7-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.9.7/3c4fd27ba1e87ccdd32fa336216f2cc1e04f5c20/jackson-dataformat-cbor-2.9.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/478a76e0ca46b25648abce6ad4858cde5e8488ec/jackson-core-2.9.7-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.7/4b7f0e0dc527fab032e9800ed231080fdc3ac015/jackson-core-2.9.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/ffa1c21ea3509859bb54d62e3b8254a3263c7fb9/woodstox-core-asl-4.4.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/woodstox-core-asl/4.4.1/84fee5eb1a4a1cefe65b6883c73b3fa83be3c1a1/woodstox-core-asl-4.4.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/5.0.3/f38482e8b060d9e5354c10103f4c4db53c58db7d/woodstox-core-5.0.3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/5.0.3/10aa199207fda142eff01cd61c69244877d71770/woodstox-core-5.0.3.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/b40604d61c01cc081a4a7bdfc562aa9847ee8857/stax2-api-3.1.4-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -595,27 +620,22 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.10/35dcae32cc1c3bfb62546e64b90fc6359183b3b5/httpcore-4.4.10-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.10/acc54d9b28bdffe4bbde89ed2e4a1e86b5285e2b/httpcore-4.4.10.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.1.2.RELEASE/bf80258c771ab62a58dffe995d9d64e923c846ad/spring-security-crypto-5.1.2.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/5.1.2.RELEASE/545e71f7cbf9a4bf33dc88028f6cffdc4d69f974/spring-security-crypto-5.1.2.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/acf35297ef03716fc14e11e2978d7c749ed3f7e5/log4j-api-2.11.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/268f0fe4df3eefe052b57c87ec48517d64fb2a10/log4j-api-2.11.1.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/7c57a4d13fe53d9abb967bba600dd0b293dafd6a/bcprov-jdk15on-1.60-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/bd47ad3bd14b8e82595c7adaa143501e60842a84/bcprov-jdk15on-1.60.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/a25f041293f401af08efba63ff4bbdce98134a03/bcpkix-jdk15on-1.60-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.60/d0c46320fbc07be3a24eb13a56cee4e3d38e0c75/bcpkix-jdk15on-1.60.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -630,7 +650,52 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8.1/e9748d7783594da3735ad9724390a10e7cebc01d/commons-lang3-3.8.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8.1/6505a72a097d9270f7a9e7bf42c4238283247755/commons-lang3-3.8.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-5.0.4-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.2/7aa564f5753105f884c50bc84ffa49a282c10a00/aspectjweaver-1.9.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.2/d2502817521477faf0712c49a6ee2a5388787fc7/aspectjweaver-1.9.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/fb592a3d57b11e71eb7a6211dd12ba824c5dd037/reactive-streams-1.0.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.3.RELEASE/893d97e4a06c9300b9d9acd0321e38e217187e31/spring-jcl-5.1.3.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.3.RELEASE/d332735dbc9c3f48cac59fb832c5719eb62bbe4d/spring-jcl-5.1.3.RELEASE.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.28/b9e763fd0149515ec3b19cc7025385e7a177bdb0/freemarker-2.3.28-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.freemarker/freemarker/2.3.28/7200064467a935052f99d114c2c05c3d189bc6d6/freemarker-2.3.28.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/5.0.3/f38482e8b060d9e5354c10103f4c4db53c58db7d/woodstox-core-5.0.3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/5.0.3/10aa199207fda142eff01cd61c69244877d71770/woodstox-core-5.0.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/b40604d61c01cc081a4a7bdfc562aa9847ee8857/stax2-api-3.1.4-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -641,16 +706,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math/2.2/61dc823ea6dca58ce9aa8badc3cfcee057689e73/commons-math-2.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math/2.2/4877b85d388275f994a5cfc7eceb73a8045d3006/commons-math-2.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.10/35dcae32cc1c3bfb62546e64b90fc6359183b3b5/httpcore-4.4.10-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.10/acc54d9b28bdffe4bbde89ed2e4a1e86b5285e2b/httpcore-4.4.10.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="main,test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -675,6 +730,21 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/7c57a4d13fe53d9abb967bba600dd0b293dafd6a/bcprov-jdk15on-1.60-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.60/bd47ad3bd14b8e82595c7adaa143501e60842a84/bcprov-jdk15on-1.60.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/3ebabe69eba0196af9ad3a814f723fb720b9101e/logback-core-1.2.3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/acf35297ef03716fc14e11e2978d7c749ed3f7e5/log4j-api-2.11.1-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/268f0fe4df3eefe052b57c87ec48517d64fb2a10/log4j-api-2.11.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/8635d6b633d632d5aad1924fb0dc767b4527689/commons-jxpath-1.3-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/commons-jxpath/commons-jxpath/1.3/c22d7d0f0f40eb7059a23cfa61773a416768b137/commons-jxpath-1.3.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -695,12 +765,12 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.1.1.BUILD-SNAPSHOT/5f554c47c8ada47efe0efce2c1f6cc76c10f15bc/spring-boot-devtools-2.1.1.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.1.1.BUILD-SNAPSHOT/59c1a5e7c6eb3f1c2db028f06721d6aabdd673fd/spring-boot-devtools-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.1.1.RELEASE/dc72e7fb02cc199f4dfd7e615cd22d9d551d98a9/spring-boot-devtools-2.1.1.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/2.1.1.RELEASE/feb0ca510d5398a3f8bfdeb35d9f9a267138b5e2/spring-boot-devtools-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.1.1.BUILD-SNAPSHOT/bc269472943685309123ade9b024df0ede4698c7/spring-boot-starter-test-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/2.1.1.RELEASE/2f23b397e7a1d44879a2ee1bee64a40a32f96efa/spring-boot-starter-test-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
@@ -720,12 +790,12 @@
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.1.BUILD-SNAPSHOT/2309e9b5addb392339a504b74f5c1e2850ea0d8a/spring-boot-test-autoconfigure-2.1.1.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.1.BUILD-SNAPSHOT/75e976cddc6f9a6a363780e95e609240911edbbf/spring-boot-test-autoconfigure-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.1.RELEASE/de7a391f9bed546b2997a1d174c502ceda302535/spring-boot-test-autoconfigure-2.1.1.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test-autoconfigure/2.1.1.RELEASE/2140feb53ecf35dd86f93749817cc064f1d6af74/spring-boot-test-autoconfigure-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.1.1.BUILD-SNAPSHOT/4dd3b3936cdebc22ce26f12501a5ece50d384dfe/spring-boot-test-2.1.1.BUILD-SNAPSHOT-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.1.1.BUILD-SNAPSHOT/d083db9baf8731803c73219d6ca69cc828836e04/spring-boot-test-2.1.1.BUILD-SNAPSHOT.jar">
+	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.1.1.RELEASE/ecafbc81983b78d9119a76bef4b07a8eab5235e/spring-boot-test-2.1.1.RELEASE-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-test/2.1.1.RELEASE/df5328719c3eb7b3f305db1e147cc650b9a4829e/spring-boot-test-2.1.1.RELEASE.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>
@@ -786,11 +856,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c837e3903ff07b478041f761915d764b98e71e05/accessors-smart-1.2-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c592b500269bfde36096641b01238a8350f8aa31/accessors-smart-1.2.jar">
-		<attributes>
-			<attribute name="gradle_used_by_scope" value="test"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-5.0.4-sources.jar" kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="test"/>
 		</attributes>

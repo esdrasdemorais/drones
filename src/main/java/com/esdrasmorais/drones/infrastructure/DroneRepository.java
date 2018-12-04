@@ -1,5 +1,7 @@
 package com.esdrasmorais.drones.infrastructure;
 
+import java.util.List;
+
 import com.esdrasmorais.ddd.repository.MongoRepository;
 import com.esdrasmorais.ddd.repository.interfaces.IClient;
 import com.esdrasmorais.ddd.repository.interfaces.IContext;
@@ -13,5 +15,10 @@ public class DroneRepository extends MongoRepository<Drone>
 	public DroneRepository(IContext context, IClient client, IDb db) {
 		super(context, client, db);
 	}
-}
 
+	@Override
+	public List<Drone> findByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

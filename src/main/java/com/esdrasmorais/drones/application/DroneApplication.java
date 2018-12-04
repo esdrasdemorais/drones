@@ -1,12 +1,15 @@
 package com.esdrasmorais.drones.application;
 
+import java.util.List;
+
 import com.esdrasmorais.ddd.application.Application;
-import com.esdrasmorais.ddd.service.IService;
+import com.esdrasmorais.drones.application.interfaces.IDroneApplication;
 import com.esdrasmorais.drones.domain.model.Drone;
 import com.esdrasmorais.drones.domain.service.interfaces.IDroneService;
 
-public class DroneApplication extends Application<Drone> {
-
+public class DroneApplication extends Application<Drone>
+	implements IDroneApplication
+{
 	private IDroneService _droneService;
 	
 	public DroneApplication(IDroneService service) {
@@ -14,4 +17,11 @@ public class DroneApplication extends Application<Drone> {
 		this._droneService = service;
 	}
 
+	public List<Drone> findAll() {
+		return this._droneService.findAll();
+	}
+	
+	public Boolean save(Drone drone) {
+		return this._droneService.save(drone);
+	}
 }
