@@ -1,0 +1,6 @@
+#
+#Wed Feb 27 17:57:16 PST 2019
+org.eclipse.jdt.apt.aptEnabled=true
+org.eclipse.jdt.apt.genSrcDir=.apt_generated
+eclipse.preferences.version=1
+org.eclipse.jdt.apt.reconcileEnabled=true

@@ -2,8 +2,6 @@ package com.esdrasmorais.drones.ui;
 
 import java.util.List;
 
-import org.picocontainer.DefaultPicoContainer;
-import org.picocontainer.MutablePicoContainer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
@@ -16,9 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import com.esdrasmorais.drones.application.DroneApplication;
-import com.esdrasmorais.drones.application.RouteApplication;
-import com.esdrasmorais.drones.application.interfaces.IDroneApplication;
-import com.esdrasmorais.drones.application.interfaces.IRouteApplication;
 import com.esdrasmorais.drones.domain.model.Drone;
 import com.esdrasmorais.drones.domain.model.Route;
 

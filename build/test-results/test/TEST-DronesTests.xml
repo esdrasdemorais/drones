@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DronesTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-12-04T05:33:22" hostname="esdras-Inspiron-15-3567" time="0.001">
-  <properties/>
-  <testcase name="shouldPrintTimeToConsole" classname="DronesTests" time="0.0"/>
-  <testcase name="shouldPrintHelloWorldToConsole" classname="DronesTests" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
