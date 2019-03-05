@@ -58,7 +58,7 @@ version = '0.1.7-SNAPSHOT'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-mainClassName = 'com.esdrasmorais.drones.ui.SpringEurekaServerApplication'
+//mainClassName = 'com/esdrasmorais/drones/ui/SpringEurekaServerApplication'
 
 // tag::repositories[]
 repositories {
