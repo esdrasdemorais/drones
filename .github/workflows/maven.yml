@@ -31,6 +31,9 @@ jobs:
       run: mvn -U -X clean install
     - name: Build with Maven
       run: mvn -B package --file pom.xml -X
+
+      env:
+        GITHUB_TOKEN: ${{ github.token }} # GITHUB_TOKEN is the default env for the password    # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive    
       
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
