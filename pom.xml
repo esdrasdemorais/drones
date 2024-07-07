@@ -22,5 +22,12 @@
   <artifactId>ddd</artifactId>
   <version>1.0-SNAPSHOT</version>
 </dependency>
-</dependencies>  
+</dependencies>
+<repositories>
+ <repository>
+   <id>github</id>
+   <name>GitHub esdrasdemorais Apache Maven Packages</name>
+   <url>https://maven.pkg.github.com/esdrasdemorais</url>
+ </repository> 
+</repositories>
 </project>
