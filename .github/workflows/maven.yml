@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest${{ github.ref }}
 
     steps:
     - uses: actions/checkout@v4
@@ -37,7 +37,7 @@ jobs:
       run: mvn -B package --file pom.xml -X
     - name: Deploy to Heroku Environment
       env:
-        GITHUB_USERNAME: ${{ vars.GITHUB_ACTOR }}
+        GITHUB_USERNAME: ${{ github.actor }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SECRETS_VARS: ${{ toJson(secrets) }}
       run: mvn -X clean heroku:deploy
