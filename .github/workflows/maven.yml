@@ -37,9 +37,9 @@ jobs:
       run: mvn -B package --file pom.xml -X
     - name: Deploy to Heroku Environment
       env:
-        GITHUB_USERNAME: ${{ secrets.USERNAME }}
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      run: echo ${{ secrets.USERNAME }} #mvn -X clean heroku:deploy
+        GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: echo "GITHUB_USERNAME = ${{ env.GITHUB_USERNAME }}" #mvn -X clean heroku:deploy
       
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
