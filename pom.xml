@@ -41,9 +41,9 @@
 </repositories>
 <distributionManagement>
    <repository>
-       <id>Drones</id>
-       <name>Drones Microservice</name>
-       <url>https://maven.pkg.github.com/esdrasdemorais/Drones</url>
+       <id>com.esdrasdemorais.ddd</id>
+       <name>Domain Driven Design</name>
+       <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
    </repository>
 </distributionManagement>
 </project>
