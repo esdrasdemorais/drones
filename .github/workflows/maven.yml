@@ -27,6 +27,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
+        maven-version: '4.0.0-beta-3'
     - name: Install Maven Package
       run: mvn -X dependency:resolve && mvn -X clean install -U
     - name: Build with Maven
