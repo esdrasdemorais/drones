@@ -21,7 +21,6 @@
 <dependency>
   <groupId>com.esdrasdemorais</groupId>
   <artifactId>ddd</artifactId>
-  <packaging>pom</packaging> 
   <version>1.0.0</version>
 </dependency> 
 </dependencies>
