@@ -61,4 +61,20 @@
   </plugin>
  </plugins>
 </build>
+<profiles>
+  <profile>
+    <id>test</id>
+    <build>
+      <plugins>
+        <plugin>
+          <groupId>com.heroku.sdk</groupId>
+          <artifactId>heroku-maven-plugin</artifactId>
+          <configuration>
+            <appName>drones</appName>
+          </configuration>
+        </plugin>
+      </plugins>
+    </build>
+  </profile>
+</profiles>
 </project>
