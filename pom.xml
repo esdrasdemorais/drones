@@ -21,7 +21,7 @@
   <groupId>com.esdrasdemorais</groupId>
   <artifactId>ddd</artifactId>
   <version>1.0-SNAPSHOT</version>
-</dependency>
+</dependency> 
 </dependencies>
 <repositories>
  <repository>
