@@ -350,7 +350,7 @@
 			<attribute name="gradle_used_by_scope" value=""/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/fd8e6f0cd0eba97d7d465f679ee01c4b73597898/Ddd-master-SNAPSHOT.jar" sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/4784ff181533fb7b962164df6c7b3301ecb44f0d/Ddd-master-SNAPSHOT-sources.jar">
+	<classpathentry kind="lib" path="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/ddd/master-SNAPSHOT/fd8e6f0cd0eba97d7d465f679ee01c4b73597898/ddd-master-SNAPSHOT.jar" sourcepath="/home/esdras/.gradle/caches/modules-2/files-2.1/com.github.esdrasdemorais/Ddd/master-SNAPSHOT/4784ff181533fb7b962164df6c7b3301ecb44f0d/Ddd-master-SNAPSHOT-sources.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
