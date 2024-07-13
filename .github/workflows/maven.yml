@@ -37,7 +37,7 @@ jobs:
       run: mvn -B package --file pom.xml -X
     - name: Deploy to Heroku Environment
       env:
-        GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+        GITHUB_USERNAME: ${{ secrets.GITHUB_ACTOR }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: mvn -X clean heroku:deploy
       
