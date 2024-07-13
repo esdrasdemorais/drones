@@ -32,7 +32,7 @@ jobs:
       run:
           mvn --errors --batch-mode --show-version org.apache.maven.plugins:maven-wrapper-plugin:3.3.2:wrapper "-Dmaven=4.0.0-beta-3"
     - name: Install Maven Package
-      run: mvn -X dependency:resolve && mvn -X clean install -U
+      run: mvn -X clean install -U
     - name: Build with Maven
       run: mvn -B package --file pom.xml -X
     - name: Deploy to Github Package Registry
