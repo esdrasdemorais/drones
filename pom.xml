@@ -26,8 +26,8 @@
 <repositories>
  <repository>
    <id>github</id>
-   <name>GitHub esdrasdemorais Apache Maven DDD Package</name>
-   <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
+   <name>GitHub esdrasdemorais Apache Maven Drones Package</name>
+   <url>https://maven.pkg.github.com/esdrasdemorais/Drones</url>
  </repository> 
 </repositories>
 </project>
