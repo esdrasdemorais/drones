@@ -1,1 +1,3 @@
-
+<settingsSecurity>
+  <master>${env.GITHUB_TOKEN}</master>
+</settingsSecurity>
