@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Install Maven Package
-      run: mvn -X clean install -U
+      run: mvn -X dependency:resolve && mvn -X clean install -U
     - name: Build with Maven
       run: mvn -B package --file pom.xml -X
 
