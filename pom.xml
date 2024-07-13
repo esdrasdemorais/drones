@@ -26,7 +26,7 @@
 <repositories>
  <repository>
     <id>com.esdrasdemorais.ddd</id>
-    <url>https://maven.pkg.github.com</url>
+    <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
     <releases><enabled>false</enabled></releases>
     <snapshots><enabled>true</enabled></snapshots>
  </repository>
