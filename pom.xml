@@ -31,4 +31,11 @@
     <snapshots><enabled>false</enabled></snapshots>
  </repository>
 </repositories>
+<distributionManagement>
+   <repository>
+       <id>Drones</id>
+       <name>Drones Microservice</name>
+       <url>https://maven.pkg.github.com/esdrasdemorais/Drones</url>
+   </repository>
+</distributionManagement>
 </project>
