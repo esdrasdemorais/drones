@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest${{ github.ref }}
+    runs-on: self-hosted #ubuntu-latest${{ github.ref }}
 
     steps:
     - uses: actions/checkout@latest
