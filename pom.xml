@@ -5,7 +5,7 @@
   <groupId>com.esdrasdemorais</groupId>
   <artifactId>ddd</artifactId>
   <version>1.0.0</version>
-  <relativePath>../pom.xml</relativePath>
+  <relativePath>./pom.xml</relativePath>
 </parent>
  
 <groupId>com.esdrasdemorais</groupId>
