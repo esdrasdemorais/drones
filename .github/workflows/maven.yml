@@ -28,9 +28,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
         maven-version: '4.0.0-beta-3'
-    - name: Setup Maven
-      run:
-          mvn --errors --batch-mode --show-version org.apache.maven.plugins:maven-wrapper-plugin:3.3.2:wrapper "-Dmaven=4.0.0-beta-3"
     - name: Configure Maven settings.xml
       run: |
         mkdir -p ~/.m2
@@ -46,6 +43,9 @@ jobs:
         env:
           GITHUB_USERNAME: ${{ secrets.USERNAME }}
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+    - name: Setup Maven
+      run:
+          mvn --errors --batch-mode --show-version org.apache.maven.plugins:maven-wrapper-plugin:3.3.2:wrapper "-Dmaven=4.0.0-beta-3"s
     - name: Install Maven Package
       run: mvn -X clean install -U
     - name: Build with Maven
