@@ -55,7 +55,7 @@ jobs:
         GITHUB_USERNAME: ${{ env.GITHUB_ACTOR }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SECRETS_VARS: ${{ toJson(secrets) }}
-      run: mvn dependency:purge-local-repository && mvn -X clean heroku:deploy && echo "$GITHUB_USERNAME" > "secrets.txt" && cat secrets.txt
+      run: mvn dependency:purge-local-repository && mvn dependency:resolve -U mvn -X clean heroku:deploy && echo "$GITHUB_USERNAME" > "secrets.txt" && cat secrets.txt
       
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
