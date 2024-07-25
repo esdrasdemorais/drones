@@ -42,7 +42,7 @@
 </repositories>
 <distributionManagement>
    <repository>
-       <id>com.esdrasdemorais.ddd</id>
+       <id>github</id>
        <name>Domain Driven Design</name>
        <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
    </repository>
