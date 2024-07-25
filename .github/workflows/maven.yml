@@ -40,7 +40,7 @@ jobs:
                   </server>
                 </servers>
               </settings>" > ~/.m2/settings.xml
-        env:
+      env:
           GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Setup Maven
