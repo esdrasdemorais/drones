@@ -30,7 +30,7 @@ jobs:
         maven-version: '4.0.0-beta-3'
     - name: Configure Maven settings.xml
       run: |
-        ls -lah ~/.m2
+        mkdir -p ~/.m2
         echo "<settings>
                 <servers>
                   <server>
