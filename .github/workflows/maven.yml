@@ -46,10 +46,10 @@ jobs:
     - name: Setup Maven
       run:
           mvn --errors --batch-mode --show-version org.apache.maven.plugins:maven-wrapper-plugin:3.3.2:wrapper "-Dmaven=4.0.0-beta-3"s
-    - name: Install Maven Package
-      run: mvn -X clean install -U
     - name: Build with Maven
       run: mvn -B package --file pom.xml -X
+    - name: Install Maven Package
+      run: mvn -X clean install -U
     - name: Deploy to Heroku Environment
       env:
         GITHUB_USERNAME: ${{ env.GITHUB_ACTOR }}
