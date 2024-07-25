@@ -24,22 +24,6 @@
   <version>1.0.0</version>
 </dependency> 
 </dependencies>
-<repositories>
- <repository>
-    <id>com.esdrasdemorais.ddd</id>
-    <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
-    <snapshots><enabled>false</enabled></snapshots>
-    <releases>
-        <enabled>true</enabled>
-        <updatePolicy>daily</updatePolicy>
-        <checksumPolicy>ignore</checksumPolicy>
-    </releases>
- </repository>
- <repository>
-    <id>maven2</id>
-    <url>http://repo1.maven.org/maven2</url>
- </repository>
-</repositories>
 <distributionManagement>
    <repository>
        <id>github</id>
