@@ -22,7 +22,7 @@
   <groupId>com.esdrasdemorais</groupId>
   <artifactId>ddd</artifactId>
   <version>1.0.0</version>
-</dependency> 
+</dependency>
 </dependencies>
 <distributionManagement>
    <repository>
@@ -65,9 +65,9 @@
  <repository>
   <id>github</id>
   <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
-  <snapshots><enabled>false</enabled></snapshots>
+  <snapshots><enabled>true</enabled></snapshots>
   <releases>
-    <enabled>false</enabled>
+    <enabled>true</enabled>
     <updatePolicy>daily</updatePolicy>
     <checksumPolicy>ignore</checksumPolicy>
   </releases>
