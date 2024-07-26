@@ -29,6 +29,12 @@
        <id>github</id>
        <name>Domain Driven Design</name>
        <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
+       <layout>default</layout>
+       <snapshots>
+    	<enabled>true</enabled>
+	<updatePolicy>never</updatePolicy>
+	<checksumPolicy>fail</checksumPolicy>
+       </snapshots>
    </repository>
 </distributionManagement>
 <build>
