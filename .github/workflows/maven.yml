@@ -43,13 +43,14 @@ jobs:
       env:
           GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#    - name: Setup Maven
-#      run:
-#          mvn --errors --batch-mode --show-version org.apache.maven.plugins:maven-wrapper-plugin:3.3.2:wrapper "-Dmaven=4.0.0-beta-3"
+    - name: Setup Maven
+      run:
+          mvn --errors --batch-mode --show-version org.apache.maven.plugins:maven-wrapper-plugin:3.3.2:wrapper "-Dmaven=4.0.0-beta-3"
     - name: Build with Maven
       run: mvn -B package --file pom.xml -UX
     - name: Install Maven Package
-      run: mvn -UX dependency:purge-local-repository && mvn -X clean install -U
+      run:  
+        mvn -UX dependency:purge-local-repository -Dinclude=com.esdrasdemorais -Dddd=groupId -Dverbose=true #&& mvn -UX clean install
     - name: Deploy to Heroku Environment
       env:
         GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
