@@ -25,3 +25,5 @@ hs_err_pid*
 /bin/
 
 !gradle/wrapper/gradle-wrapper.jar
+
+/actions-runner/_work/*
