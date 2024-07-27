@@ -50,8 +50,7 @@ jobs:
       run: mvn -B package --file pom.xml -UX
     - name: Install Maven Package
       run:  
-        mvn -UX clean install
-        #dependency:purge-local-repository -Dinclude=com.esdrasdemorais -Dddd=groupId -Dverbose=true
+        mvn -UX dependency:purge-local-repository -Dinclude=com.esdrasdemorais -Dddd=groupId -Dverbose=true -UX clean install
     - name: Deploy to Heroku Environment
       env:
         GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
