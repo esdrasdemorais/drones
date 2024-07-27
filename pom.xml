@@ -60,7 +60,7 @@
           <groupId>com.heroku.sdk</groupId>
           <artifactId>heroku-maven-plugin</artifactId>
           <configuration>
-            <appName>Drones</appName>
+            <appName>drones</appName>
           </configuration>
         </plugin>
       </plugins>
