@@ -44,7 +44,9 @@
     <artifactId>heroku-maven-plugin</artifactId>
     <version>3.0.7</version>
     <configuration>
-     <appName>drones</appName>
+        <appName>drones</appName>
+    </configuration>
+    <configuration>
      <processTypes>
         <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
      </processTypes>
