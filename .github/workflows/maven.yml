@@ -6,10 +6,6 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-concurrency:
-  group: deploy
-  cancel-in-progress: false
-
 name: Java CI with Maven
 
 on:
