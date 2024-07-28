@@ -21,29 +21,29 @@ on:
 jobs:
   build:
     runs-on: self-hosted #ubuntu-latest${{ github.ref }}
-    steps:
-      - name: Checkout action v4 code
-      - uses: actions/checkout@v4
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-          cache: maven
-          maven-version: '4.0.0-beta-3'
-      - name: Checkout heroku-deploy latest version code
-      - uses: akhileshns/heroku-deploy@v3.13.15
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "drones"
-          heroku_email: "esdrasdemorais@gmail.com"
-          dontuseforce: true
-          dontautocreate: true
+  steps:
+    - name: Checkout action v4 code
+    - uses: actions/checkout@v4
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+        maven-version: '4.0.0-beta-3'
+    - name: Checkout heroku-deploy latest version code
+    - uses: akhileshns/heroku-deploy@v3.13.15
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "drones"
+        heroku_email: "esdrasdemorais@gmail.com"
+        dontuseforce: true
+        dontautocreate: true
 
-      - name: Configure Maven settings.xml
-        run: |
-          mkdir -p ~/.m2
-          echo "<settings>
+    - name: Configure Maven settings.xml
+      run: |
+        mkdir -p ~/.m2
+        echo "<settings>
                 <servers>
                   <server>
                     <id>github</id>
@@ -52,28 +52,28 @@ jobs:
                   </server>
                 </servers>
               </settings>" > ~/.m2/settings.xml
-        env:
+      env:
           GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Setup Maven
-        run:
+    - name: Setup Maven
+      run:
           mvn --errors --batch-mode --show-version org.apache.maven.plugins:maven-wrapper-plugin:3.3.2:wrapper "-Dmaven=4.0.0-beta-3"
-      - name: Build with Maven
-        run: mvn -B package --file pom.xml -UX
-      - name: Install Maven Package
-        run:  
-          mvn -UX clean install
-          #dependency:purge-local-repository -Dinclude=com.esdrasdemorais -Dddd=groupId -Dverbose=true
-      - name: Deploy to Heroku Environment
-        env:
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SECRETS_VARS: ${{ toJson(secrets) }}
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "drones"
-          heroku_email: "esdrasdemorais@gmail.com"
-        run: | 
-          mvn -UX heroku:deploy && heroku:logs --tail --app drones
+    - name: Build with Maven
+      run: mvn -B package --file pom.xml -UX
+    - name: Install Maven Package
+      run:  
+        mvn -UX clean install
+        #dependency:purge-local-repository -Dinclude=com.esdrasdemorais -Dddd=groupId -Dverbose=true
+    - name: Deploy to Heroku Environment
+      env:
+        GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SECRETS_VARS: ${{ toJson(secrets) }}
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "drones"
+        heroku_email: "esdrasdemorais@gmail.com"
+      run: | 
+        mvn -UX heroku:deploy && heroku:logs --tail --app drones
     #&& echo "$GITHUB_USERNAME" > "secrets.txt" && cat secrets.txt
     #mvn dependency:purge-local-repository -UX && mvn dependency:resolve -UX && 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
