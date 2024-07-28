@@ -20,8 +20,10 @@ on:
 
 jobs:
   build:
+
     runs-on: self-hosted #ubuntu-latest${{ github.ref }}
-  steps:
+
+    steps:
     - name: Checkout action v4 code
     - uses: actions/checkout@v4
     - name: Set up JDK 17
