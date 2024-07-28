@@ -31,7 +31,7 @@ jobs:
         maven-version: '4.0.0-beta-3'
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: "drones"
-        heroku_email: "esdrasdemorais@gmail.com"
+        heroku_email: "esdrasdemorais@gmail.com
     - name: Configure Maven settings.xml
       run: |
         mkdir -p ~/.m2
