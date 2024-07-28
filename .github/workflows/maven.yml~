@@ -8,10 +8,6 @@
 
 name: Java CI with Maven
 
-concurrency:
-  group: deploy
-  cancel-in-progress: false
-
 on:
   push:
     branches: [ "master" ]
