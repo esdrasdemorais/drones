@@ -64,14 +64,14 @@ jobs:
           heroku_email: "esdrasdemorais@gmail.com"
           dontuseforce: true
           dontautocreate: true
-      env:
-        GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        SECRETS_VARS: ${{ toJson(secrets) }}
-        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-        heroku_app_name: "drones"
-        heroku_email: "esdrasdemorais@gmail.com"
-        #&& echo "$GITHUB_USERNAME" > "secrets.txt" && cat secrets.txt
+    env:
+      GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      SECRETS_VARS: ${{ toJson(secrets) }}
+      heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+      heroku_app_name: "drones"
+      heroku_email: "esdrasdemorais@gmail.com"
+      #&& echo "$GITHUB_USERNAME" > "secrets.txt" && cat secrets.txt
     #mvn dependency:purge-local-repository -UX && mvn dependency:resolve -UX && 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
