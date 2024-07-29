@@ -60,16 +60,16 @@ jobs:
       #uses: akhileshns/heroku-deploy@v3.13.15
         run: |
           git push --force-with-lease heroku HEAD:main --force
-        with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "drones"
-          heroku_email: "esdrasdemorais@gmail.com"
-          #dontuseforce: false
-          dontautocreate: true
-          healthcheck: "https://drones-208560ddbfc2.herokuapp.com/health"
-          delay: 7
-          checkstring: "ok"
-          rollbackonhealthcheckfailed: true
+          #with:
+          #heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          #heroku_app_name: "drones"
+          #heroku_email: "esdrasdemorais@gmail.com"
+          ##dontuseforce: false
+          #dontautocreate: true
+          #healthcheck: "https://drones-208560ddbfc2.herokuapp.com/health"
+          #delay: 7
+          #checkstring: "ok"
+          #rollbackonhealthcheckfailed: true
         env:
           GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
