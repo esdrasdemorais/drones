@@ -57,7 +57,7 @@ jobs:
       - name: Checkout heroku-deploy latest version code and Deploy to Heroku Environment
       #run: | 
       #   mvn -UX heroku:deploy  #&& heroku:logs --tail --app drones
-        uses: akhileshns/heroku-deploy@v3.13.15
+      #uses: akhileshns/heroku-deploy@v3.13.15
         run: |
           git push --force-with-lease heroku HEAD:main --force
         with:
