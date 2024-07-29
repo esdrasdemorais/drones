@@ -62,7 +62,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "drones"
           heroku_email: "esdrasdemorais@gmail.com"
-          dontuseforce: true
+          dontuseforce: false
           dontautocreate: true
           healthcheck: "https://drones-208560ddbfc2.herokuapp.com/health"
           delay: 7
