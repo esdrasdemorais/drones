@@ -58,7 +58,7 @@ jobs:
       #run: | 
       #   mvn -UX heroku:deploy  #&& heroku:logs --tail --app drones
         script:
-          - git push --force-with-lease heroku
+          - git push --force-with-lease heroku master
         uses: akhileshns/heroku-deploy@v3.13.15
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
