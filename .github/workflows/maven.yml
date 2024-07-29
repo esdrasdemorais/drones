@@ -64,7 +64,7 @@ jobs:
           heroku_email: "esdrasdemorais@gmail.com"
           dontuseforce: true
           dontautocreate: true
-          healthcheck: "https://[YOUR APP's NAME].herokuapp.com/health"
+          healthcheck: "https://drones-208560ddbfc2.herokuapp.com/health"
           delay: 7
           checkstring: "ok"
           rollbackonhealthcheckfailed: true
