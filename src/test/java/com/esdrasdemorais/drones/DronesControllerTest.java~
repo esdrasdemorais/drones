@@ -1,0 +1,50 @@
+package com.esdrasdemorais.drones.ui;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.test.web.servlet.MockMvc;
+
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.context.annotation.Import;
+
+import com.esdrasdemorais.drones.application.DroneApplication;
+import com.esdrasdemorais.drones.ui.DroneController;
+import com.esdrasdemorais.drones.config.AppConfig;
+
+
+@WebMvcTest(DroneController.class)
+@Import(AppConfig.class)
+class DroneControllerTest {
+    
+    @Autowired
+    private MockMvc mockMvc;
+    
+    @MockBean
+    private com.esdrasdemorais.drones.domain.service.interfaces.IDroneService droneService;
+
+    @Test
+    void testHealthEndpoint() throws Exception {
+        mockMvc.perform(get("/api/drones/health"))
+               .andExpect(status().isOk())
+               .andExpect(result -> result.getResponse().getContentAsString().equals("OK"));
+    }
+
+    @Test
+    void testStatusEndpoint() throws Exception {
+        mockMvc.perform(get("/api/drones/status"))
+               .andExpect(status().isOk())
+               .andExpect(jsonPath("$.status").value("RUNNING"))
+               .andExpect(jsonPath("$.service").value("Drone Service"));
+    }
+
+}

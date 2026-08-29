@@ -1,0 +1,41 @@
+package com.esdrasdemorais.drones.domain.service;
+
+import java.util.List;
+
+import com.esdrasmorais.ddd.repository.interfaces.IRepository;
+import com.esdrasmorais.ddd.service.Service;
+import com.esdrasdemorais.drones.domain.model.Drone;
+import com.esdrasdemorais.drones.domain.service.interfaces.IRouteService;
+import com.esdrasdemorais.drones.domain.model.Route;
+import com.esdrasdemorais.drones.infrastructure.interfaces.IRouteRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Lazy;
+
+@org.springframework.stereotype.Service
+public class RouteService extends com.esdrasmorais.ddd.service.Service<Route>
+	implements IRouteService
+{
+	private final IRouteRepository routeRepository;
+	
+	public RouteService(@Lazy IRouteRepository routeRepository) {
+		super(routeRepository);
+		this.routeRepository = routeRepository;
+	}
+	
+	public List<Route> findAll() {
+		return this.routeRepository.findAll();
+	}
+	
+	public List<Route> findByDrone(Drone drone) {
+		Object[] object = new Object[] { drone };
+		return this.routeRepository.find("drone", object);
+	}
+	
+	public Boolean save(Route route) {
+		return this.routeRepository.save(route);
+	}
+}

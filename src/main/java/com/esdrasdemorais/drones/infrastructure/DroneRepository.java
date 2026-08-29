@@ -1,0 +1,28 @@
+package com.esdrasdemorais.drones.infrastructure;
+
+import java.util.List;
+
+import com.esdrasmorais.ddd.repository.MongoRepository;
+import com.esdrasmorais.ddd.repository.interfaces.IClient;
+import com.esdrasmorais.ddd.repository.interfaces.IContext;
+import com.esdrasmorais.ddd.repository.interfaces.IDb;
+import com.esdrasdemorais.drones.domain.model.Drone;
+import com.esdrasdemorais.drones.infrastructure.interfaces.IDroneRepository;
+
+import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Lazy;
+
+@Component
+public class DroneRepository extends MongoRepository<Drone> 
+	implements IDroneRepository
+{
+	public DroneRepository(@Lazy IContext context, @Lazy IClient client, @Lazy IDb db) {
+		super(context, client, db);
+	}
+
+	@Override
+	public List<Drone> findByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

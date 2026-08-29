@@ -1,0 +1,34 @@
+package com.esdrasdemorais.drones.domain.service;
+
+import java.util.List;
+
+import com.esdrasdemorais.drones.domain.model.Drone;
+import com.esdrasdemorais.drones.domain.service.interfaces.IDroneService;
+import com.esdrasdemorais.drones.infrastructure.interfaces.IDroneRepository;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@org.springframework.stereotype.Service
+public class DroneService extends com.esdrasmorais.ddd.service.Service<Drone> implements IDroneService {
+
+	private final IDroneRepository _droneRepository;
+	
+	public DroneService(@Lazy IDroneRepository repository) {
+		super(repository);
+		this._droneRepository = repository;
+	}
+
+	@Override
+	public List<Drone> findByName(String name) {
+		Object[] object = new Object[] { name };
+		return this._droneRepository.find("name", object);
+	}
+	
+	@Override
+	public Boolean save(Drone drone) {
+		return this._droneRepository.save(drone);
+	}
+
+}

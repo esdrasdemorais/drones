@@ -1,0 +1,52 @@
+package com.esdrasdemorais.drones.jms;
+
+import com.esdrasdemorais.drones.application.JmsApplication;
+import com.esdrasdemorais.drones.jms.JmsClient;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.TestPropertySource;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.jms.core.JmsTemplate;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.anyString;
+import static org.mockito.Mockito.when;
+
+@SpringBootTest(classes = JmsApplication.class)
+class JmsClientTests {
+    
+    @Autowired(required = false)
+    private JmsClient jmsClient;
+    
+    @MockBean
+    private JmsTemplate jmsTemplate;
+    
+    @Test
+    void contextLoads() {
+        // Verify beans are loaded
+        assertThat(jmsClient).isNotNull();
+        assertThat(jmsTemplate).isNotNull();
+    }
+    
+    @Test
+    void testSendAndReceiveMessage() {
+        if (jmsClient != null) {
+            String queueName = "testQueue";
+            String testMessage = "Hello from test!";
+            
+            // Send message
+            jmsClient.sendMessage(queueName, testMessage);
+            
+            // Receive message
+            String received = jmsClient.receiveMessage(queueName);
+            
+            // Verify
+            assertThat(received).isEqualTo(testMessage);
+        }
+    }
+}

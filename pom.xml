@@ -1,29 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-<modelVersion>4.0.0</modelVersion>
 
+<modelVersion>4.0.0</modelVersion>
 <groupId>com.esdrasdemorais</groupId>
 <artifactId>drones</artifactId>
-<packaging>pom</packaging>
+<packaging>jar</packaging>
 <version>1.0</version>
 
 <properties>
- <maven.compiler.source>4.0.0-beta-1</maven.compiler.source>
- <maven.compiler.target>4.0.0-beta-1</maven.compiler.target>
+ <java.version>21</java.version>
+ <spring-cloud.version>2023.0.3</spring-cloud.version>
+ <spring.version>6.1.8</spring.version>
 </properties>
 
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.3.0</version>
+</parent>
+
+<dependencyManagement>
+  <dependencies>
+    <dependency>
+	<groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-dependencies</artifactId>
+	<version>2023.0.3</version>
+	<type>pom</type>
+	<scope>import</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-gateway</artifactId>
+    </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>6.1.8</version>
+        </dependency>
+  </dependencies>
+</dependencyManagement>
+
 <dependencies>
+
+<!-- ActiveMQ (includes JmsTemplate) -->
 <dependency>
- <groupId>junit</groupId>
- <artifactId>junit</artifactId>
- <version>4.13.1</version>
- <scope>test</scope>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-activemq</artifactId>
+  <version>3.3.0</version>
 </dependency>
+
+<!-- ActiveMQ Client -->
+<dependency>
+  <groupId>org.apache.activemq</groupId>
+  <artifactId>activemq-client</artifactId>
+</dependency>
+
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-jms</artifactId>
+  <version>6.1.8</version>
+</dependency>
+
+<dependency>
+    <groupId>jakarta.jms</groupId>
+    <artifactId>jakarta.jms-api</artifactId>
+    <version>3.1.0</version>
+</dependency>
+
+<dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>7.0.0</version>
+</dependency>
+
+<dependency>
+    <groupId>org.picocontainer</groupId>
+    <artifactId>picocontainer</artifactId>
+    <version>2.15</version>
+</dependency>
+
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-ec2</artifactId>
+    <version>1.12.780</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-aws</artifactId>
+    <version>2.2.6.RELEASE</version>
+</dependency>
+
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+  <version>3.1.3</version>
+</dependency>
+
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+</dependency>
+
+<dependency>
+  <groupId>junit</groupId>
+  <artifactId>junit</artifactId>
+  <version>4.13.1</version>
+  <scope>test</scope>
+</dependency>
+
 <dependency>
   <groupId>com.esdrasdemorais</groupId>
   <artifactId>ddd</artifactId>
   <version>1.0.0</version>
 </dependency>
+    <!-- Core Spring Boot starter for web application capabilities -->
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter</artifactId>
+</dependency>
+
+<!-- Core Spring Boot starter for testing functions -->
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-test</artifactId>
+  <scope>test</scope>
+</dependency>
+
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-gateway</artifactId>
+  <version>4.1.5</version>
+</dependency>
+
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-inline</artifactId>
+    <version>5.2.0</version>
+    <scope>test</scope>
+</dependency>
+
 </dependencies>
+
 <distributionManagement>
    <repository>
        <id>github</id>
@@ -50,6 +173,23 @@
      </processTypes>
     </configuration>
   </plugin>
+
+  <plugin>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-maven-plugin</artifactId>
+    <version>3.3.0</version>
+    <configuration>
+        <mainClass>com.esdrasdemorais.drones.SpringEurekaServerApplication</mainClass>
+    </configuration>
+  </plugin>
+
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <configuration>
+        <argLine>-Dnet.bytebuddy.experimental=true</argLine>
+    </configuration>
+  </plugin>
  </plugins>
 </build>
 <profiles>
@@ -70,6 +210,17 @@
 </profiles>
 <repositories>
  <repository>
+    <id>central</id>
+    <url>https://repo.maven.apache.org/maven2</url>
+    <releases>
+	<enabled>true</enabled>
+	<updatePolicy>always</updatePolicy>
+    </releases>
+    <snapshots>
+	<enabled>false</enabled>
+    </snapshots>
+ </repository>	
+ <repository>
   <id>github</id>
   <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
   <snapshots><enabled>true</enabled></snapshots>
@@ -78,6 +229,10 @@
     <updatePolicy>daily</updatePolicy>
     <checksumPolicy>ignore</checksumPolicy>
   </releases>
+ </repository>
+ <repository>
+  <id>spring-repo</id>
+  <url>https://repo.spring.io/release</url>
  </repository>
 </repositories>
 </project>
