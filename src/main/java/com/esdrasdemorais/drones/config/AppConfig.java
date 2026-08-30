@@ -46,11 +46,11 @@ public class AppConfig {
 	}
     }
 
-  /*  @Bean
+    @Bean
     public IClient client() {
 	return _client;
-    } 
-(*/
+    }
+
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
@@ -66,10 +66,20 @@ public class AppConfig {
 	return _client;
     }
 
- /*   @Bean
+    @Bean
+    public IDb db() throws Exception {
+	IDb db = null;
+	try {
+	    db = primaryClient().getDb("Drones");
+	} catch (Exception ex) {
+	    logger.error("Erro! " + ex.getMessage());
+	}
+	return db;
+    }
+
+/*    @Bean
     public IDroneRepository droneRepository() throws Exception {
-        IDb db = primaryClient().getDb("Drones");
-	return new DroneRepository(context(), _client, db);
+	return new DroneRepository(context(), _client, db());
     }
 
     @Bean
