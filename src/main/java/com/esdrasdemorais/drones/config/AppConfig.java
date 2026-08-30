@@ -39,7 +39,8 @@ public class AppConfig {
   
     public AppConfig(@Lazy IClient client) throws Exception {
 	try {
-	    if (client == null) _client = new MongoClientImpl(System.getProperty("mongo_uri") == null ? "test" : System.getProperty("mongo_uri"));
+	    logger.info("mongo_url=" + System.getenv("mongo_uri"));
+	    if (client == null) _client = new MongoClientImpl(System.getenv("mongo_uri") == null ? "test" : System.getenv("mongo_uri"));
 	    else _client = client;
 	} catch (Exception ex) {
 	    logger.error(ex.getMessage() + " - Error!");

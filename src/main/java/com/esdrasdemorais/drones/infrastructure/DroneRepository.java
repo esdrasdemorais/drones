@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Lazy;
 public class DroneRepository extends MongoRepository<Drone> 
 	implements IDroneRepository
 {
-	public DroneRepository(@Lazy IContext context, @Lazy IClient client, @Lazy IDb db) {
+	public DroneRepository(@Lazy IContext context, @Lazy IClient client, IDb db) {
 		super(context, client, db);
 	}
 
