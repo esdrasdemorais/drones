@@ -36,7 +36,7 @@ class JmsClientTests {
     @Test
     void testSendAndReceiveMessage() {
         if (jmsClient != null) {
-            String queueName = "testQueue";
+            String queueName = "myQueue";
             String testMessage = "Hello from test!";
             
             // Send message

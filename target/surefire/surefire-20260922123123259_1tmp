@@ -1,5 +1,5 @@
 #surefire
-#Sat Aug 29 23:15:26 GMT-03:00 2026
+#Tue Sep 22 12:31:23 GMT-03:00 2026
 childDelegation=false
 classPathUrl.0=/home/Downloads/drones/target/test-classes
 classPathUrl.1=/home/Downloads/drones/target/classes
@@ -187,7 +187,7 @@ mainCliOptions1=LOGGING_LEVEL_WARN
 mainCliOptions2=LOGGING_LEVEL_INFO
 mainCliOptions3=LOGGING_LEVEL_DEBUG
 mainCliOptions4=SHOW_ERRORS
-pluginPid=27856
+pluginPid=24368
 preferTestsFromInStream=false
 providerConfiguration=org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
 reportsDirectory=/home/Downloads/drones/target/surefire-reports

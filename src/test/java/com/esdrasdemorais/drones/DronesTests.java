@@ -20,12 +20,12 @@ public class DronesTests {
 
     @Test
     public void shouldPrintTimeToConsole() {
-        //assertThat(output(), containsString("The current local time is"));
+        assertThat(output(), containsString("The current local time is"));
     }
 
     @Test
     public void shouldPrintHelloWorldToConsole() {
-        //assertThat(output(), containsString("Hello world!"));
+        assertThat(output(), containsString("Hello world!"));
     }
 
     private String output() {

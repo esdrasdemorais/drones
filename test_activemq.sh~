@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Checking ActiveMQ status..."
+if nc -zv localhost 61616 2>&1 | grep -q succeeded; then
+    echo "✅ ActiveMQ is reachable on port 61616"
+else
+    echo "❌ ActiveMQ is NOT reachable on port 61616"
+    echo "Checking ActiveMQ process..."
+    ps aux | grep -i activemq | grep -v grep
+fi

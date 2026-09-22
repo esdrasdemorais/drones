@@ -67,7 +67,7 @@ public class AppConfig {
 	return _client;
     }
 
-    /*@Bean
+    @Bean
     public IDb db(@Lazy IClient client) throws Exception {
 	IDb db = null;
 	try {
@@ -76,7 +76,7 @@ public class AppConfig {
 	    logger.error("Erro! " + ex.getMessage());
 	}
 	return db;
-    }*/
+    }
 
 /*    @Bean
     public IDroneRepository droneRepository() throws Exception {

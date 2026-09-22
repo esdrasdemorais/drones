@@ -34,7 +34,7 @@ public class DroneController {
 		this.droneApplication = droneApplication;
 	}
 	
-	@RequestMapping("/drones")
+	@RequestMapping("/list")
 	@org.springframework.context.annotation.Lazy(true)
 	public List<Drone> getDrones() {
 		//Arrays.asList(

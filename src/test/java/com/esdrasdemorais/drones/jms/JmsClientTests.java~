@@ -19,7 +19,7 @@ import static org.mockito.Mockito.when;
 
 @SpringBootTest(classes = JmsApplication.class)
 class JmsClientTests {
-    
+
     @Autowired(required = false)
     private JmsClient jmsClient;
     
