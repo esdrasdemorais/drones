@@ -9,7 +9,6 @@ import com.esdrasdemorais.drones.domain.service.interfaces.IDroneService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import org.springframework.context.annotation.Lazy;
 
 @Component
@@ -19,14 +18,14 @@ public class DroneApplication extends Application<Drone>
 	@Autowired
 	private IDroneService _droneService;
 	
-	public DroneApplication(IDroneService service) {
+	public DroneApplication(@Lazy IDroneService service) {
 	    super(service);
 	    _droneService = service;
 	}
 
-//	public List<Drone> findAll() {
-//		return this._droneService.findAll();
-//	}
+	public List<Drone> findAll(Drone drone) {
+	    return this._droneService.findAll(drone);
+	}
 //	
 //	public Boolean save(Drone drone) {
 //		return this._droneService.save(drone);

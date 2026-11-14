@@ -14,10 +14,22 @@ import com.esdrasdemorais.drones.application.RouteApplication;
 import com.esdrasdemorais.drones.application.interfaces.IDroneApplication;
 import com.esdrasdemorais.drones.application.interfaces.IRouteApplication;
 
-        
+import com.esdrasdemorais.drones.config.*;
 
-@SpringBootApplication
-@ComponentScan(basePackages = "com.esdrasdemorais.drones")
+@SpringBootApplication(scanBasePackages = {
+    "com.esdrasmorais.ddd", 
+    "com.esdrasmorais.ddd.repository",
+    "com.esdrasmorais.ddd.repository.interfaces",
+    "com.esdrasdemorais.drones"
+}/*, exclude = {
+    AppConfig.class
+}*/)
+@ComponentScan(basePackages = {
+    "com.esdrasmorais.ddd", 
+    "com.esdrasmorais.ddd.repository",
+    "com.esdrasmorais.ddd.repository.interfaces", 
+    "com.esdrasdemorais.drones",
+})
 public class SpringEurekaServerApplication {
 	public SpringEurekaServerApplication() {
                 MutablePicoContainer pico = new DefaultPicoContainer();
@@ -39,10 +51,9 @@ public class SpringEurekaServerApplication {
 
         // Debug - print all beans
         String[] beanNames = context.getBeanDefinitionNames();
+	System.out.println("||||||||||||||||||||||||||||||||||||||||||||Debug||||||||||||||||||||||||||||||||||||||");
         for (String name : beanNames) {
             System.out.println(name);
         }
     }
 }
-
-

@@ -21,8 +21,8 @@ public class RouteApplication extends Application<Route>
 		this.routeService = routeService;
 	}
 
-	public List<Route> findAll() {
-		return (List<Route>) this.routeService.findAll();
+	public List<Route> findAll(Route route) {
+		return (List<Route>) this.routeService.findAll(route);
 	}
 	
 	public Boolean save(Route route) {

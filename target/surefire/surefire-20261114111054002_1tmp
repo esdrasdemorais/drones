@@ -1,5 +1,5 @@
 #surefire
-#Tue Sep 22 12:31:23 GMT-03:00 2026
+#Sat Nov 14 11:10:54 GMT-03:00 2026
 childDelegation=false
 classPathUrl.0=/home/Downloads/drones/target/test-classes
 classPathUrl.1=/home/Downloads/drones/target/classes
@@ -167,7 +167,7 @@ classPathUrl.87=/root/.m2/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar
 classPathUrl.88=/root/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar
 classPathUrl.89=/root/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar
 classPathUrl.9=/root/.m2/repository/org/springframework/spring-jcl/6.1.8/spring-jcl-6.1.8.jar
-classPathUrl.90=/root/.m2/repository/com/esdrasdemorais/ddd/1.0.0/ddd-1.0.0.jar
+classPathUrl.90=/root/.m2/repository/com/esdrasdemorais/ddd/1.0.7/ddd-1.0.7.jar
 classPathUrl.91=/root/.m2/repository/org/mongodb/mongo-java-driver/3.12.14/mongo-java-driver-3.12.14.jar
 classPathUrl.92=/root/.m2/repository/org/netbeans/external/com-google-gson/RELEASE113/com-google-gson-RELEASE113.jar
 classPathUrl.93=/root/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.0/spring-boot-starter-web-3.3.0.jar
@@ -187,7 +187,7 @@ mainCliOptions1=LOGGING_LEVEL_WARN
 mainCliOptions2=LOGGING_LEVEL_INFO
 mainCliOptions3=LOGGING_LEVEL_DEBUG
 mainCliOptions4=SHOW_ERRORS
-pluginPid=24368
+pluginPid=17492
 preferTestsFromInStream=false
 providerConfiguration=org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
 reportsDirectory=/home/Downloads/drones/target/surefire-reports

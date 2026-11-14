@@ -38,7 +38,9 @@ public class DroneController {
 	@org.springframework.context.annotation.Lazy(true)
 	public List<Drone> getDrones() {
 		//Arrays.asList(
-		List<Drone> drones = this.droneApplication.findAll();
+		
+		Drone drone = new Drone();
+		List<Drone> drones = this.droneApplication.findAll(drone);
 		return drones;
 	}
 	

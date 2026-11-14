@@ -39,7 +39,8 @@ public class RouteController {
 	@RequestMapping("/routes")
 	public List<Route> getRoutes() {
 		//Arrays.asList(
-		List<Route> routes = this.routeApplication.findAll();
+		Route route = new Route();
+		List<Route> routes = this.routeApplication.findAll(route);
 		return routes;
 	}
 	

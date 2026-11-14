@@ -12,6 +12,7 @@ import com.esdrasmorais.ddd.repository.interfaces.IContext;
 import com.esdrasmorais.ddd.repository.interfaces.IClient;
 import com.esdrasmorais.ddd.repository.interfaces.IDb;
 import com.esdrasmorais.ddd.repository.*;
+import com.esdrasmorais.ddd.repository.interfaces.*;
 
 import com.esdrasdemorais.drones.infrastructure.DroneRepository;
 import com.esdrasdemorais.drones.infrastructure.RouteRepository;
@@ -19,6 +20,8 @@ import com.esdrasdemorais.drones.infrastructure.RouteRepository;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,8 +30,11 @@ import java.lang.Exception;
 import java.lang.String;
 
 import com.esdrasmorais.ddd.repository.MongoClientImpl;
+import com.mongodb.MongoClientURI;
 
 import com.esdrasdemorais.drones.infrastructure.interfaces.IDroneRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Configuration
 public class AppConfig {
@@ -37,14 +43,26 @@ public class AppConfig {
      
     private IClient _client;
   
-    public AppConfig(@Lazy IClient client) throws Exception {
-	try {
+    public AppConfig(@Lazy IClient client) {
+	_client = setClient();
+    }
+    
+    private IClient setClient() {
+        IClient client = null;
+        try {
 	    logger.info("mongo_url=" + System.getenv("mongo_uri"));
-	    if (client == null) _client = new MongoClientImpl(System.getenv("mongo_uri") == null ? "test" : System.getenv("mongo_uri"));
-	    else _client = client;
+	    if (client == null) {
+		client = new MongoClientImpl(
+		    System.getenv("mongo_uri") == null ? "test" : System.getenv("mongo_uri"),
+		    "localhost",
+		    27107
+		);
+	    }
+	    logger.info("_client=" + client);
 	} catch (Exception ex) {
 	    logger.error(ex.getMessage() + " - Error!");
 	}
+	return client;
     }
 
     @Bean
@@ -58,27 +76,38 @@ public class AppConfig {
     }
 
     @Bean
-    public IContext context() {
-	return new MongoContext();
-    }
-
-    @Bean
     public IClient primaryClient() throws Exception {
 	return _client;
     }
 
-    /*@Bean
-    public IDb db(@Lazy IClient client) throws Exception {
+    @Bean
+    public IDb IDb() {
+	    System.out.println("mongo_uri:"+System.getenv("mongo_uri"));
+	    String mongoUri = System.getenv("mongo_uri");
+System.out.println(mongoUri);
+	MongoClientImpl mongoClient = new MongoClientImpl(mongoUri, "localhost", 27017);
+	_client = mongoClient;
 	IDb db = null;
 	try {
-	    db = client.getDb("Drones");
+	    db = _client.getDb("Drones");
+System.out.println("DB:"+db);
+	    if (_client != null) db = _client.getDb("Drones");
+	    else db = new MongoClientImpl(System.getenv("mongo_uri"), "localhost", 27017).getDb("Drones");
+	    System.out.println("DronesDB: " + db);
+	    if (db == null) throw new Exception("zuadu esse autowire so podia ser java!");
 	} catch (Exception ex) {
-	    logger.error("Erro! " + ex.getMessage());
+	    logger.error("Issue! " + ex.getMessage());
 	}
-	return db;
-    }*/
+        return db;	
+    }
 
 /*    @Bean
+    public IContext context() {
+	return new MongoContext(new MongoContext(), _client, IDb());
+    }
+
+
+    @Bean
     public IDroneRepository droneRepository() throws Exception {
 	return new DroneRepository(context(), _client, db());
     }

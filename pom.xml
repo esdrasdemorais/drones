@@ -110,11 +110,26 @@
 </dependency>
 
 <dependency>
+    <groupId>com.esdrasdemorais</groupId>
+    <artifactId>ddd</artifactId>
+    <version>1.0.7</version>
+    <exclusions>
+        <exclusion>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+
+<!--
+<dependency>
   <groupId>com.esdrasdemorais</groupId>
   <artifactId>ddd</artifactId>
-  <version>1.0.0</version>
-</dependency>
-    <!-- Core Spring Boot starter for web application capabilities -->
+  <version>1.0.7</version>
+</dependency> 
+-->
+
+<!-- Core Spring Boot starter for web application capabilities -->
 <dependency>
   <groupId>org.springframework.boot</groupId>
   <artifactId>spring-boot-starter-web</artifactId>
@@ -154,7 +169,7 @@
        <url>https://maven.pkg.github.com/esdrasdemorais/ddd</url>
        <layout>default</layout>
        <snapshots>
-    	<enabled>true</enabled>
+    	<enabled>false</enabled>
 	<updatePolicy>never</updatePolicy>
 	<checksumPolicy>fail</checksumPolicy>
        </snapshots>

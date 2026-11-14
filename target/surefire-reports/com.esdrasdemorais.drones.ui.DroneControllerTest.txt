@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.esdrasdemorais.drones.ui.DroneControllerTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.487 s <<< FAILURE! -- in com.esdrasdemorais.drones.ui.DroneControllerTest
-com.esdrasdemorais.drones.ui.DroneControllerTest.testHealthEndpoint -- Time elapsed: 0.008 s <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.507 s <<< FAILURE! -- in com.esdrasdemorais.drones.ui.DroneControllerTest
+com.esdrasdemorais.drones.ui.DroneControllerTest.testHealthEndpoint -- Time elapsed: 0.002 s <<< ERROR!
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.esdrasdemorais.drones.ui.DroneControllerTest': Unsatisfied dependency expressed through field 'mockMvc': No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
@@ -33,7 +33,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
 	... 21 more
 
-com.esdrasdemorais.drones.ui.DroneControllerTest.testStatusEndpoint -- Time elapsed: 0.006 s <<< ERROR!
+com.esdrasdemorais.drones.ui.DroneControllerTest.testStatusEndpoint -- Time elapsed: 0.002 s <<< ERROR!
 org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'com.esdrasdemorais.drones.ui.DroneControllerTest': Unsatisfied dependency expressed through field 'mockMvc': No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)

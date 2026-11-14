@@ -11,7 +11,6 @@ import com.esdrasdemorais.drones.infrastructure.interfaces.IRouteRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Lazy;
 
@@ -26,8 +25,8 @@ public class RouteService extends com.esdrasmorais.ddd.service.Service<Route>
 		this.routeRepository = routeRepository;
 	}
 	
-	public List<Route> findAll() {
-		return this.routeRepository.findAll();
+	public List<Route> findAll(Route route) {
+		return this.routeRepository.findAll(route);
 	}
 	
 	public List<Route> findByDrone(Drone drone) {
